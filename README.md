@@ -9,3 +9,7 @@ Use lambda-function.json for grant lambda access to exec stop, start and describ
 Tag your instances with tag-key: Shutdown and value wih: True
 
 # Adjuste var region with region of your resources
+
+# Schedule
+schedule your functions in cloudwatch rules, example:
+50 10 ? * MON-FRI * - This execution will take place at 10:50 on weekdays. with this method your resources will shutdown on weekend.
