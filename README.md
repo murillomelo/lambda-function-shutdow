@@ -7,3 +7,5 @@ Use lambda-function.json for grant lambda access to exec stop, start and describ
 
 # Tag Instances 
 Tag your instances with tag-key: Shutdown and value wih: True
+
+# Adjuste var region with region of your resources
